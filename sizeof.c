@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include <stdint.h>
+#include <stdbool.h>
 #include <pthread.h>
 #include <semaphore.h>
 #include <sys/socket.h>
