@@ -18,7 +18,7 @@
 
 int main(void) {
 	size_t size = sizeof(TYPE);
-	printf("sizeof(%s) = %llu\n", STRINGIFY(TYPE), size);
+	printf("sizeof(%s) = %zu\n", STRINGIFY(TYPE), size);
 	
 	return 0;
 }
