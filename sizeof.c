@@ -9,6 +9,7 @@
 #include <sys/stat.h>
 #include <termios.h>
 #include <arpa/inet.h>
+#include <errno.h>
 
 #define _STRINGIFY(s) #s
 #define STRINGIFY(s) _STRINGIFY(s)
