@@ -11,6 +11,7 @@
 #include <arpa/inet.h>
 #include <errno.h>
 #include <stdatomic.h>
+#include <signal.h>
 
 #define _STRINGIFY(s) #s
 #define STRINGIFY(s) _STRINGIFY(s)
